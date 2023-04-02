@@ -1,70 +1,28 @@
-# Getting Started with Create React App
+# 1번 문제: 
+main.jsx에 제시된 박스의 색깔을 바꿔본다. 
+-> props 의 연결이 제공되어져 있습니다. 연결 형태를 파악한 후 어떻게 값을 전달해야 될지 고민해보세요!!
+박스 배경색 조건: 1번째 박스: red, 2번째 박스: blue, 3번째 박스: green, 4번째 박스: pink
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ 
+# 2번 문제: 
+박스의 텍스트 색깔을 바꿔본다.
+-> 1번 문제와 달리 props제공이 되어있지 않습니다. 직접 props를 줘야합니다!!
 
-## Available Scripts
+글자색 조건: 1번째 박스: black, 2번째 박스: white, 3번째 박스: gray, 4번째 박스: blue
 
-In the project directory, you can run:
 
-### `npm start`
+# 3번 문제
+components 파일에 circle.jsx 를 만드신 후 현재 이미지와 같은 모양이 출력되게 만드세요. 
+출력은 main.jsx에서 1,2,3번 문제를 해결하신 부분에서 불러오시면 됩니다!!
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+# 도전 문제 -> 이를 map을 통해서 색깔의 값들을 props로 전달해보세요!!
+1. const circleColorArr = ["pink","red","black","gray","green","blue","orange"]; 
+현재 원의 색깔 배열이 주어져 있습니다. 이 배열을 map을 통해서 props르 전달해보세요!!
+-> 많이 어려울 수 있습니다. 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# 최종 결과물 
+아래 이미지와 같이 출력되게 하면 끝입니다!!
